@@ -1,0 +1,31 @@
+ *{
+     margin:0px;
+     padding:0px;
+ }
+ body{
+     background-color: blueviolet;
+     width: 100%;height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .container{
+     width: 300px;height: 200px;
+     display:flex;
+     overflow-y:hidden;
+     scroll-snap-type: x mandatory;
+     border-radius: 10px;
+ }
+ .container div{
+     min-width: 300px;min-height:200px;
+     scroll-snap-align: start;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+input{
+    caret-color:rgb(236, 10, 59) ;
+    border: none;
+    width: 200px;height: 75px;
+    margin-left: 50px;
+}
